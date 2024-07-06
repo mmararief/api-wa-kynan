@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node whatsapp.js",
+    "dev": "nodemon whatsapp.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "qrcode": "^1.5.3",
+    "socket.io": "^4.7.5",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#webpack-exodus"
+  }
+}
